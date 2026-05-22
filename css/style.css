@@ -1,1 +1,39 @@
-/* TODO à compléter */
+#globale {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: rgb(235, 230, 208);
+    width: 350px;
+}
+
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 187, 187);
+    border: 3px;
+    padding: 10px;
+}
+
+.card-header > h2 {
+    margin: 0;
+}
+.bloc-pointille {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 187, 187);
+    border: 3px dotted #333;
+    padding: 10px;
+}
+
+.bloc-pointille > p {
+    margin: 5px;
+}
+
+.card > h3 {
+    padding-left: 10px;
+}
